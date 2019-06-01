@@ -1,0 +1,45 @@
+
+\section{Стохастический градиентный спуск}
+
+Стохастический градиентный спуск (stochastic gradient descent, SGD) - оптимизационный алгоритм, отличающийся от обычного градиентного спуска тем, что градиент оптимизируемой функции считается на каждом шаге не как сумма градиентов от каждого элемента выборки, а как градиент от нескольких случайно выбранных элементов. \\
+
+Алгоритм стохастического градиентного спуска:
+\begin{itemize}
+  \item Случайным образом выбираем часть примеров из всех имеющихся
+  \item Считаем $\hat{y}$ для каждого из них
+  \item Вычисляем градиент целевой функции по весам для каждого из них 
+  \item Суммируем то, что получилось
+  \item Обновляем веса
+  \item Проверяем критерии остановки алгоритма. Если хотя бы один из них отработал - выходим из цикла
+\end{itemize}
+
+Реализованный алгоритм стохастического градиентного спуска на языке Python:
+
+\begin{lstlisting}[caption={Стохастический градиентный спуск}]
+  import numpy as np
+  import math
+  
+  def SGD(self, X, y, batch_size, learning_rate, eps, max_steps):
+      indexes = list(range(len(X)))
+      for s in range(max_steps):
+          sample_ind = np.random.choice(indexes, batch_size, replace = False)
+          X_example = X[sample_ind]
+          y_answer = y[sample_ind]
+              
+          res = self.update_mini_batch(X_example, y_answer, learning_rate, eps) 
+          if res: 
+              return 1 
+      return 0
+  
+  def update_mini_batch(self, X, y, learning_rate, eps):
+      nabla_j = compute_grad_analytically(self, X, y)
+      j_old = J_quadratic(self, X, y)
+      delta_w = -1 * learning_rate * nabla_j
+      self.w += delta_w
+      j_new = J_quadratic(self, X, y)
+      
+      if math.fabs(j_old - j_new) < eps:
+          return 1
+      else:
+          return 0
+\end{lstlisting}

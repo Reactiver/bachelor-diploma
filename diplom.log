@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  1 JUN 2019 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  1 JUN 2019 21:05
 entering extended mode
 **c:/projects/diplom/diplom.tex
 (c:/projects/diplom/diplom.tex
@@ -357,6 +357,36 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen114
 \Gin@req@width=\dimen115
+) (C:\Users\79157\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\listings.sty
+\lst@mode=\count104
+\lst@gtempboxa=\box31
+\lst@token=\toks26
+\lst@length=\count105
+\lst@currlwidth=\dimen116
+\lst@column=\count106
+\lst@pos=\count107
+\lst@lostspace=\dimen117
+\lst@width=\dimen118
+\lst@newlines=\count108
+\lst@lineno=\count109
+\lst@maxwidth=\dimen119
+ (C:\Users\79157\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count110
+\lst@skipnumbers=\count111
+\lst@framebox=\box32
+) (C:\Users\79157\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+) (C:\Users\79157\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
  ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
@@ -367,18 +397,18 @@ Package ifvtex Info: VTeX not detected.
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count104
-\Gm@cntv=\count105
-\c@Gm@tempcnt=\count106
-\Gm@bindingoffset=\dimen116
-\Gm@wd@mp=\dimen117
-\Gm@odd@mp=\dimen118
-\Gm@even@mp=\dimen119
-\Gm@layoutwidth=\dimen120
-\Gm@layoutheight=\dimen121
-\Gm@layouthoffset=\dimen122
-\Gm@layoutvoffset=\dimen123
-\Gm@dimlist=\toks26
+\Gm@cnth=\count112
+\Gm@cntv=\count113
+\c@Gm@tempcnt=\count114
+\Gm@bindingoffset=\dimen120
+\Gm@wd@mp=\dimen121
+\Gm@odd@mp=\dimen122
+\Gm@even@mp=\dimen123
+\Gm@layoutwidth=\dimen124
+\Gm@layoutheight=\dimen125
+\Gm@layouthoffset=\dimen126
+\Gm@layoutvoffset=\dimen127
+\Gm@dimlist=\toks27
  ("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg")) (c:/projects\diplom\diplom.aux
 
 LaTeX Warning: Label `fig:mpr' multiply defined.
@@ -389,33 +419,33 @@ LaTeX Warning: Label `fig:mpr' multiply defined.
 )
 \openout1 = `diplom.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
  (C:\Users\79157\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
-\scratchdimen=\dimen124
-\scratchbox=\box31
-\nofMPsegments=\count108
-\nofMParguments=\count109
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count110
-\MPscratchDim=\dimen125
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count115
+\scratchdimen=\dimen128
+\scratchbox=\box33
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen129
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks29
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
@@ -447,6 +477,8 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
+\c@lstlisting=\count121
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -652,57 +684,74 @@ File: ./img/neural-network.png Graphic file (type png)
 Package pdftex.def Info: ./img/neural-network.png  used on input line 8.
 (pdftex.def)             Requested size: 248.96162pt x 222.29027pt.
  [8 <./img/neural-network.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
 <./img/perceptron.png, id=41, 481.8pt x 307.90031pt>
 File: ./img/perceptron.png Graphic file (type png)
 <use ./img/perceptron.png>
-Package pdftex.def Info: ./img/perceptron.png  used on input line 43.
+Package pdftex.def Info: ./img/perceptron.png  used on input line 44.
 (pdftex.def)             Requested size: 248.96162pt x 159.09897pt.
-[9 <./img/perceptron.png>]) (pages/neural-network/sigmoid-neuron.tex
-Overfull \hbox (11.7151pt too wide) in paragraph at lines 52--1
+[9 <./img/perceptron.png>]) (pages/neural-network/cost-function.tex
+Overfull \hbox (11.7151pt too wide) in paragraph at lines 53--1
 []\T2A/cmr/m/n/14.4 К непри-ят-ным осо-бен-но-стям ли-ней-но-го ней-ро-на мож-но от-не-сти то, что неболь-
  []
 
+) (pages/neural-network/learn-linear.tex [10]) (pages/neural-network/sigmoid-neuron.tex
+Underfull \hbox (badness 10000) in paragraph at lines 65--1
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--9
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--15
+Underfull \hbox (badness 10000) in paragraph at lines 10--13
 
  []
 
-<./img/sigma-func.png, id=51, 255.20343pt x 207.77625pt>
+<./img/sigma-func.png, id=59, 255.20343pt x 207.77625pt>
 File: ./img/sigma-func.png Graphic file (type png)
 <use ./img/sigma-func.png>
-Package pdftex.def Info: ./img/sigma-func.png  used on input line 20.
+Package pdftex.def Info: ./img/sigma-func.png  used on input line 18.
 (pdftex.def)             Requested size: 248.96162pt x 202.70624pt.
-[10]) [11 <./img/sigma-func.png>] (c:/projects\diplom\diplom.aux)
+[12 <./img/sigma-func.png>]) (pages/neural-network/sgd.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+[13]
+Overfull \hbox (23.70695pt too wide) in paragraph at lines 16--17
+[]\T2A/cmr/m/n/14.4 Реализованный ал-го-ритм сто-ха-сти-че-ско-го гра-ди-ент-но-го спус-ка на язы-ке Python: 
+ []
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+) [14] (c:/projects\diplom\diplom.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4508 strings out of 492895
- 60810 string characters out of 3133479
- 139906 words of memory out of 3000000
- 8277 multiletter control sequences out of 15000+200000
- 24541 words of font info for 65 fonts, out of 3000000 for 9000
+ 6352 strings out of 492895
+ 84969 string characters out of 3133479
+ 458963 words of memory out of 3000000
+ 10089 multiletter control sequences out of 15000+200000
+ 25990 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,27p,1931b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx3583.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on c:/projects\diplom\diplom.pdf (12 pages, 256451 bytes).
+ 41i,16n,40p,1931b,1254s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx3583.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on c:/projects\diplom\diplom.pdf (15 pages, 308224 bytes).
 PDF statistics:
- 412 PDF objects out of 1000 (max. 8388607)
+ 511 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
