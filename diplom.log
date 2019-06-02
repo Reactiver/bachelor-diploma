@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  2 JUN 2019 11:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  2 JUN 2019 11:44
 entering extended mode
 **c:/projects/diplom/diplom.tex
 (c:/projects/diplom/diplom.tex
@@ -416,6 +416,18 @@ LaTeX Warning: Label `fig:mpr' multiply defined.
 
 LaTeX Warning: Label `fig:mpr' multiply defined.
 
+
+LaTeX Warning: Label `fig:mpr' multiply defined.
+
+
+LaTeX Warning: Label `fig:mpr' multiply defined.
+
+
+LaTeX Warning: Label `fig:mpr' multiply defined.
+
+
+LaTeX Warning: Label `fig:mpr' multiply defined.
+
 )
 \openout1 = `diplom.aux'.
 
@@ -740,23 +752,59 @@ Overfull \hbox (10.78223pt too wide) in paragraph at lines 49--52
 \T2A/cmr/m/n/14.4 Где $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 W[]\OT1/cmr/m/n/14.4 )[]$ \T2A/cmr/m/n/14.4 - это $\OML/cmm/m/it/14.4 k$\T2A/cmr/m/n/14.4 -й стол-бец мат-ри-цы $\OML/cmm/m/it/14.4 W[]$\T2A/cmr/m/n/14.4 . Сле-до-ва-тель-но, $[]$. 
  []
 
-[16]) [17] (c:/projects\diplom\diplom.aux)
+[16]) (pages/evolution/evolution.tex [17]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+) (pages/evolution/natural-selection.tex [18
+
+]
+Overfull \hbox (22.36871pt too wide) in paragraph at lines 17--18
+\T2A/cmr/m/n/14.4 Процесс на-чи-на-ет-ся с на-бо-ра ней-рон-ный се-тей. Каж-дая ней-ро-ная сеть(индивидуум)
+ []
+
+[19]
+<./img/crossover-point.png, id=90, 246.1697pt x 228.10219pt>
+File: ./img/crossover-point.png Graphic file (type png)
+<use ./img/crossover-point.png>
+Package pdftex.def Info: ./img/crossover-point.png  used on input line 34.
+(pdftex.def)             Requested size: 248.96162pt x 230.69809pt.
+<./img/genesis.png, id=91, 234.1247pt x 139.27031pt>
+File: ./img/genesis.png Graphic file (type png)
+<use ./img/genesis.png>
+Package pdftex.def Info: ./img/genesis.png  used on input line 43.
+(pdftex.def)             Requested size: 248.96162pt x 148.10396pt.
+<./img/child.png, id=92, 234.1247pt x 91.09032pt>
+File: ./img/child.png Graphic file (type png)
+<use ./img/child.png>
+Package pdftex.def Info: ./img/child.png  used on input line 52.
+(pdftex.def)             Requested size: 248.96162pt x 96.86798pt.
+ [20 <./img/crossover-point.png> <./img/genesis.png>]
+<./img/mutation.png, id=97, 268.00125pt x 156.585pt>
+File: ./img/mutation.png Graphic file (type png)
+<use ./img/mutation.png>
+Package pdftex.def Info: ./img/mutation.png  used on input line 61.
+(pdftex.def)             Requested size: 248.96162pt x 145.46007pt.
+) [21 <./img/child.png> <./img/mutation.png>] (c:/projects\diplom\diplom.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6358 strings out of 492895
- 85158 string characters out of 3133479
+ 6386 strings out of 492895
+ 85834 string characters out of 3133479
  459963 words of memory out of 3000000
- 10089 multiletter control sequences out of 15000+200000
+ 10105 multiletter control sequences out of 15000+200000
  25990 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,16n,40p,1931b,1254s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx3583.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on c:/projects\diplom\diplom.pdf (18 pages, 347532 bytes).
+Output written on c:/projects\diplom\diplom.pdf (22 pages, 378588 bytes).
 PDF statistics:
- 550 PDF objects out of 1000 (max. 8388607)
+ 581 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
