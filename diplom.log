@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  2 JUN 2019 11:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  3 JUN 2019 11:47
 entering extended mode
 **c:/projects/diplom/diplom.tex
 (c:/projects/diplom/diplom.tex
@@ -428,6 +428,18 @@ LaTeX Warning: Label `fig:mpr' multiply defined.
 
 LaTeX Warning: Label `fig:mpr' multiply defined.
 
+
+LaTeX Warning: Label `fig:mpr' multiply defined.
+
+
+LaTeX Warning: Label `fig:mpr' multiply defined.
+
+
+LaTeX Warning: Label `fig:mpr' multiply defined.
+
+
+LaTeX Warning: Label `fig:mpr' multiply defined.
+
 )
 \openout1 = `diplom.aux'.
 
@@ -788,23 +800,55 @@ File: ./img/mutation.png Graphic file (type png)
 <use ./img/mutation.png>
 Package pdftex.def Info: ./img/mutation.png  used on input line 61.
 (pdftex.def)             Requested size: 248.96162pt x 145.46007pt.
-) [21 <./img/child.png> <./img/mutation.png>] (c:/projects\diplom\diplom.aux)
+) (pages/program/program.tex [21 <./img/child.png> <./img/mutation.png>]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
+<./img/footbal.png, id=101, 339.51843pt x 94.10156pt>
+File: ./img/footbal.png Graphic file (type png)
+<use ./img/footbal.png>
+Package pdftex.def Info: ./img/footbal.png  used on input line 20.
+(pdftex.def)             Requested size: 248.96162pt x 69.00226pt.
+[22
+
+ <./img/footbal.png>] [23] [24]
+<./img/first-epoch.png, id=113, 174.6525pt x 142.28156pt>
+File: ./img/first-epoch.png Graphic file (type png)
+<use ./img/first-epoch.png>
+Package pdftex.def Info: ./img/first-epoch.png  used on input line 135.
+(pdftex.def)             Requested size: 199.16626pt x 162.26126pt.
+ [25 <./img/first-epoch.png>]
+<./img/second-epoch.png, id=118, 176.91093pt x 140.77594pt>
+File: ./img/second-epoch.png Graphic file (type png)
+<use ./img/second-epoch.png>
+Package pdftex.def Info: ./img/second-epoch.png  used on input line 144.
+(pdftex.def)             Requested size: 199.16626pt x 158.48851pt.
+<./img/third-epoch.png, id=119, 178.41656pt x 142.28156pt>
+File: ./img/third-epoch.png Graphic file (type png)
+<use ./img/third-epoch.png>
+Package pdftex.def Info: ./img/third-epoch.png  used on input line 153.
+(pdftex.def)             Requested size: 199.16626pt x 158.83754pt.
+) (pages/literature.tex [26 <./img/second-epoch.png> <./img/third-epoch.png>]
+
+LaTeX Warning: Empty `thebibliography' environment on input line 6.
+
+) [27
+
+] (c:/projects\diplom\diplom.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6386 strings out of 492895
- 85834 string characters out of 3133479
+ 6456 strings out of 492895
+ 86942 string characters out of 3133479
  459963 words of memory out of 3000000
- 10105 multiletter control sequences out of 15000+200000
+ 10163 multiletter control sequences out of 15000+200000
  25990 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,40p,1931b,1254s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,16n,40p,1931b,1655s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx3583.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on c:/projects\diplom\diplom.pdf (22 pages, 378588 bytes).
+Output written on c:/projects\diplom\diplom.pdf (28 pages, 457127 bytes).
 PDF statistics:
- 581 PDF objects out of 1000 (max. 8388607)
+ 643 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
