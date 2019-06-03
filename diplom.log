@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  3 JUN 2019 22:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  3 JUN 2019 23:32
 entering extended mode
 **c:/projects/diplom/diplom.tex
 (c:/projects/diplom/diplom.tex
@@ -697,33 +697,41 @@ Overfull \hbox (1.5908pt too wide) in paragraph at lines 17--18
 
 [28]) (pages/program/program.tex [29]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
+
+Overfull \hbox (1.9769pt too wide) in paragraph at lines 10--12
+[]\T2A/cmr/m/n/14.4 ƒл€ на-пи-са-ни€ про-грам-мы ис-поль-зо-вал-с€ €зык про-грам-ми-ро-ва-ни€ Python
+ []
+
+
+Overfull \hbox (3.86783pt too wide) in paragraph at lines 15--17
+[]\T2A/cmr/m/n/14.4 Ќужно на-учить-с€ ре-шать та-кую за-да-чу: «на€ на-чаль-ное на-прав-ле-ние (угол
+ []
+
 <./img/footbal.png, id=119, 339.51843pt x 94.10156pt>
 File: ./img/footbal.png Graphic file (type png)
 <use ./img/footbal.png>
 Package pdftex.def Info: ./img/footbal.png  used on input line 20.
 (pdftex.def)             Requested size: 241.84843pt x 67.0308pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [30
 
 ] [31 <./img/footbal.png>] [32] [33]
 <./img/first-epoch.png, id=134, 174.6525pt x 142.28156pt>
 File: ./img/first-epoch.png Graphic file (type png)
 <use ./img/first-epoch.png>
-Package pdftex.def Info: ./img/first-epoch.png  used on input line 135.
+Package pdftex.def Info: ./img/first-epoch.png  used on input line 143.
 (pdftex.def)             Requested size: 193.47578pt x 157.6261pt.
 <./img/second-epoch.png, id=135, 176.91093pt x 140.77594pt>
 File: ./img/second-epoch.png Graphic file (type png)
 <use ./img/second-epoch.png>
-Package pdftex.def Info: ./img/second-epoch.png  used on input line 144.
+Package pdftex.def Info: ./img/second-epoch.png  used on input line 152.
 (pdftex.def)             Requested size: 193.47578pt x 153.96039pt.
-<./img/third-epoch.png, id=136, 178.41656pt x 142.28156pt>
+ [34 <./img/first-epoch.png>]
+<./img/third-epoch.png, id=140, 178.41656pt x 142.28156pt>
 File: ./img/third-epoch.png Graphic file (type png)
 <use ./img/third-epoch.png>
-Package pdftex.def Info: ./img/third-epoch.png  used on input line 153.
+Package pdftex.def Info: ./img/third-epoch.png  used on input line 161.
 (pdftex.def)             Requested size: 193.47578pt x 154.2979pt.
- [34 <./img/first-epoch.png> <./img/second-epoch.png>]) (pages/literature.tex [35 <./img/third-epoch.png>]) (pages/text-program.tex [36
+) (pages/literature.tex [35 <./img/second-epoch.png> <./img/third-epoch.png>]) (pages/text-program.tex [36
 
 ] [37
 
@@ -741,9 +749,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  41i,16n,40p,1925b,1789s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx3583.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on c:/projects\diplom\diplom.pdf (41 pages, 489450 bytes).
+Output written on c:/projects\diplom\diplom.pdf (41 pages, 489381 bytes).
 PDF statistics:
- 683 PDF objects out of 1000 (max. 8388607)
+ 682 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
