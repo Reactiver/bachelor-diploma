@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  3 JUN 2019 21:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  3 JUN 2019 22:52
 entering extended mode
 **c:/projects/diplom/diplom.tex
 (c:/projects/diplom/diplom.tex
@@ -654,44 +654,50 @@ Overfull \hbox (2.36003pt too wide) in paragraph at lines 13--14
 [24
 
 ]) (pages/evolution/natural-selection.tex
-Overfull \hbox (36.5951pt too wide) in paragraph at lines 17--18
-\T2A/cmr/m/n/14.4 Процесс на-чи-на-ет-ся с на-бо-ра ней-рон-ный се-тей. Каж-дая ней-ро-ная сеть(индивидуум)
+Overfull \hbox (57.74484pt too wide) in paragraph at lines 17--19
+[]\T2A/cmr/m/n/14.4 Процесс на-чи-на-ет-ся с на-бо-ра ней-рон-ный се-тей. Каж-дая ней-ро-ная сеть(индивидуум)
  []
 
 [25]
 <./img/crossover-point.png, id=101, 246.1697pt x 228.10219pt>
 File: ./img/crossover-point.png Graphic file (type png)
 <use ./img/crossover-point.png>
-Package pdftex.def Info: ./img/crossover-point.png  used on input line 34.
-(pdftex.def)             Requested size: 241.84843pt x 224.1094pt.
+Package pdftex.def Info: ./img/crossover-point.png  used on input line 33.
+(pdftex.def)             Requested size: 193.47578pt x 179.28334pt.
 <./img/genesis.png, id=102, 234.1247pt x 139.27031pt>
 File: ./img/genesis.png Graphic file (type png)
 <use ./img/genesis.png>
-Package pdftex.def Info: ./img/genesis.png  used on input line 43.
-(pdftex.def)             Requested size: 241.84843pt x 143.8729pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./img/child.png, id=103, 234.1247pt x 91.09032pt>
+Package pdftex.def Info: ./img/genesis.png  used on input line 42.
+(pdftex.def)             Requested size: 193.47578pt x 115.09705pt.
+ [26 <./img/crossover-point.png>]
+<./img/child.png, id=107, 234.1247pt x 91.09032pt>
 File: ./img/child.png Graphic file (type png)
 <use ./img/child.png>
-Package pdftex.def Info: ./img/child.png  used on input line 52.
-(pdftex.def)             Requested size: 241.84843pt x 94.10065pt.
-[26 <./img/crossover-point.png>]
+Package pdftex.def Info: ./img/child.png  used on input line 51.
+(pdftex.def)             Requested size: 193.47578pt x 75.27968pt.
 <./img/mutation.png, id=108, 268.00125pt x 156.585pt>
 File: ./img/mutation.png Graphic file (type png)
 <use ./img/mutation.png>
-Package pdftex.def Info: ./img/mutation.png  used on input line 62.
-(pdftex.def)             Requested size: 241.84843pt x 141.30269pt.
-) (pages/program/program.tex
-Overfull \hbox (6.72182pt too wide) in paragraph at lines 67--1
-[]\T2A/cmr/m/n/14.4 Мутация про-ис-хо-дит для под-дер-жа-ния раз-но-об-ра-зия в по-пу-ля-ции и предот-
+Package pdftex.def Info: ./img/mutation.png  used on input line 61.
+(pdftex.def)             Requested size: 193.47578pt x 113.04216pt.
+) (pages/evolution/evolution-in-nn.tex
+Overfull \hbox (25.0058pt too wide) in paragraph at lines 1--1
+[]\T2A/cmr/bx/n/20.74 Применение эво-лю-ци-он-ных ал-го-рит-мов в ней-
  []
 
 [27 <./img/genesis.png> <./img/child.png> <./img/mutation.png>]
+Overfull \hbox (5.21577pt too wide) in paragraph at lines 17--18
+[]\T2A/cmr/m/n/14.4 Декодирование хро-мо-со-мы те-ку-ще-го по-ко-ле-ния для вос-ста-нов-ле-ния мно-
+ []
+
+
+Overfull \hbox (1.5908pt too wide) in paragraph at lines 17--18
+\T2A/cmr/m/n/14.4 же-ства ве-сов и кон-стру-и-ро-ва-ние со-от-вет-ству-ю-щей это-му мно-же-ству ней-
+ []
+
+[28]) (pages/program/program.tex [29]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-<./img/footbal.png, id=113, 339.51843pt x 94.10156pt>
+<./img/footbal.png, id=119, 339.51843pt x 94.10156pt>
 File: ./img/footbal.png Graphic file (type png)
 <use ./img/footbal.png>
 Package pdftex.def Info: ./img/footbal.png  used on input line 20.
@@ -699,43 +705,45 @@ Package pdftex.def Info: ./img/footbal.png  used on input line 20.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[28
+[30
 
-] [29 <./img/footbal.png>] [30] [31]
-<./img/first-epoch.png, id=127, 174.6525pt x 142.28156pt>
+] [31 <./img/footbal.png>] [32] [33]
+<./img/first-epoch.png, id=134, 174.6525pt x 142.28156pt>
 File: ./img/first-epoch.png Graphic file (type png)
 <use ./img/first-epoch.png>
 Package pdftex.def Info: ./img/first-epoch.png  used on input line 135.
 (pdftex.def)             Requested size: 193.47578pt x 157.6261pt.
-<./img/second-epoch.png, id=128, 176.91093pt x 140.77594pt>
+<./img/second-epoch.png, id=135, 176.91093pt x 140.77594pt>
 File: ./img/second-epoch.png Graphic file (type png)
 <use ./img/second-epoch.png>
 Package pdftex.def Info: ./img/second-epoch.png  used on input line 144.
 (pdftex.def)             Requested size: 193.47578pt x 153.96039pt.
-<./img/third-epoch.png, id=129, 178.41656pt x 142.28156pt>
+<./img/third-epoch.png, id=136, 178.41656pt x 142.28156pt>
 File: ./img/third-epoch.png Graphic file (type png)
 <use ./img/third-epoch.png>
 Package pdftex.def Info: ./img/third-epoch.png  used on input line 153.
 (pdftex.def)             Requested size: 193.47578pt x 154.2979pt.
- [32 <./img/first-epoch.png> <./img/second-epoch.png>]) (pages/literature.tex [33 <./img/third-epoch.png>]) (pages/text-program.tex [34
+ [34 <./img/first-epoch.png> <./img/second-epoch.png>]) (pages/literature.tex [35 <./img/third-epoch.png>]) (pages/text-program.tex [36
 
-] [35] [36] [37] [38]) [39] (c:/projects\diplom\diplom.aux)
+] [37
+
+] [38] [39] [40] [41]) [42] (c:/projects\diplom\diplom.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6539 strings out of 492895
- 87998 string characters out of 3133479
- 622963 words of memory out of 3000000
+ 6542 strings out of 492895
+ 88102 string characters out of 3133479
+ 638963 words of memory out of 3000000
  10245 multiletter control sequences out of 15000+200000
  25990 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,16n,40p,1925b,1789s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx3583.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on c:/projects\diplom\diplom.pdf (38 pages, 482940 bytes).
+Output written on c:/projects\diplom\diplom.pdf (41 pages, 489450 bytes).
 PDF statistics:
- 670 PDF objects out of 1000 (max. 8388607)
+ 683 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
