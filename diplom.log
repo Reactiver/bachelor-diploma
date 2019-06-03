@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  3 JUN 2019 11:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  3 JUN 2019 12:38
 entering extended mode
 **c:/projects/diplom/diplom.tex
 (c:/projects/diplom/diplom.tex
@@ -443,20 +443,20 @@ LaTeX Warning: Label `fig:mpr' multiply defined.
 )
 \openout1 = `diplom.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
  (C:\Users\79157\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
@@ -551,23 +551,23 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write3
 \openout3 = `diplom.toc'.
 
- (pages/introduce.tex [1
+ (pages/introduce.tex [2
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 6--48
 
  []
 
-[2
+[3
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
-) (pages/neural-network/neural-network.tex [3]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
+) (pages/neural-network/neural-network.tex [4]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
@@ -594,7 +594,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
-[4
+[5
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
@@ -626,7 +626,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
-[5]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -671,7 +671,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-[6]) (pages/neural-network/learning-algs.tex
+[7]) (pages/neural-network/learning-algs.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -701,13 +701,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--1
 
  []
 
-[7]
+[8]
 <./img/neural-network.png, id=35, 421.575pt x 376.40625pt>
 File: ./img/neural-network.png Graphic file (type png)
 <use ./img/neural-network.png>
 Package pdftex.def Info: ./img/neural-network.png  used on input line 8.
 (pdftex.def)             Requested size: 248.96162pt x 222.29027pt.
- [8 <./img/neural-network.png>]
+ [9 <./img/neural-network.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
@@ -717,17 +717,17 @@ File: ./img/perceptron.png Graphic file (type png)
 <use ./img/perceptron.png>
 Package pdftex.def Info: ./img/perceptron.png  used on input line 44.
 (pdftex.def)             Requested size: 248.96162pt x 159.09897pt.
-[9 <./img/perceptron.png>]) (pages/neural-network/cost-function.tex
+[10 <./img/perceptron.png>]) (pages/neural-network/cost-function.tex
 Overfull \hbox (11.7151pt too wide) in paragraph at lines 53--1
 []\T2A/cmr/m/n/14.4 К непри-ят-ным осо-бен-но-стям ли-ней-но-го ней-ро-на мож-но от-не-сти то, что неболь-
  []
 
-) (pages/neural-network/learn-linear.tex [10]) (pages/neural-network/sigmoid-neuron.tex
+) (pages/neural-network/learn-linear.tex [11]) (pages/neural-network/sigmoid-neuron.tex
 Underfull \hbox (badness 10000) in paragraph at lines 65--1
 
  []
 
-[11]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
@@ -747,38 +747,38 @@ File: ./img/sigma-func.png Graphic file (type png)
 <use ./img/sigma-func.png>
 Package pdftex.def Info: ./img/sigma-func.png  used on input line 18.
 (pdftex.def)             Requested size: 248.96162pt x 202.70624pt.
-[12 <./img/sigma-func.png>]) (pages/neural-network/sgd.tex
+[13 <./img/sigma-func.png>]) (pages/neural-network/sgd.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-[13]
+[14]
 Overfull \hbox (23.70695pt too wide) in paragraph at lines 16--17
 []\T2A/cmr/m/n/14.4 Реализованный ал-го-ритм сто-ха-сти-че-ско-го гра-ди-ент-но-го спус-ка на язы-ке Python: 
  []
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
-) (pages/neural-network/rumelhart.tex [14]) (pages/neural-network/backprop.tex [15]
+) (pages/neural-network/rumelhart.tex [15]) (pages/neural-network/backprop.tex [16]
 Overfull \hbox (10.78223pt too wide) in paragraph at lines 49--52
 \T2A/cmr/m/n/14.4 Где $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 W[]\OT1/cmr/m/n/14.4 )[]$ \T2A/cmr/m/n/14.4 - это $\OML/cmm/m/it/14.4 k$\T2A/cmr/m/n/14.4 -й стол-бец мат-ри-цы $\OML/cmm/m/it/14.4 W[]$\T2A/cmr/m/n/14.4 . Сле-до-ва-тель-но, $[]$. 
  []
 
-[16]) (pages/evolution/evolution.tex [17]
+[17]) (pages/evolution/evolution.tex [18]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-) (pages/evolution/natural-selection.tex [18
+) (pages/evolution/natural-selection.tex [19
 
 ]
 Overfull \hbox (22.36871pt too wide) in paragraph at lines 17--18
 \T2A/cmr/m/n/14.4 Процесс на-чи-на-ет-ся с на-бо-ра ней-рон-ный се-тей. Каж-дая ней-ро-ная сеть(индивидуум)
  []
 
-[19]
+[20]
 <./img/crossover-point.png, id=90, 246.1697pt x 228.10219pt>
 File: ./img/crossover-point.png Graphic file (type png)
 <use ./img/crossover-point.png>
@@ -794,28 +794,28 @@ File: ./img/child.png Graphic file (type png)
 <use ./img/child.png>
 Package pdftex.def Info: ./img/child.png  used on input line 52.
 (pdftex.def)             Requested size: 248.96162pt x 96.86798pt.
- [20 <./img/crossover-point.png> <./img/genesis.png>]
+ [21 <./img/crossover-point.png> <./img/genesis.png>]
 <./img/mutation.png, id=97, 268.00125pt x 156.585pt>
 File: ./img/mutation.png Graphic file (type png)
 <use ./img/mutation.png>
-Package pdftex.def Info: ./img/mutation.png  used on input line 61.
+Package pdftex.def Info: ./img/mutation.png  used on input line 62.
 (pdftex.def)             Requested size: 248.96162pt x 145.46007pt.
-) (pages/program/program.tex [21 <./img/child.png> <./img/mutation.png>]
+) (pages/program/program.tex [22 <./img/child.png> <./img/mutation.png>]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 <./img/footbal.png, id=101, 339.51843pt x 94.10156pt>
 File: ./img/footbal.png Graphic file (type png)
 <use ./img/footbal.png>
 Package pdftex.def Info: ./img/footbal.png  used on input line 20.
 (pdftex.def)             Requested size: 248.96162pt x 69.00226pt.
-[22
+[23
 
- <./img/footbal.png>] [23] [24]
+ <./img/footbal.png>] [24] [25]
 <./img/first-epoch.png, id=113, 174.6525pt x 142.28156pt>
 File: ./img/first-epoch.png Graphic file (type png)
 <use ./img/first-epoch.png>
 Package pdftex.def Info: ./img/first-epoch.png  used on input line 135.
 (pdftex.def)             Requested size: 199.16626pt x 162.26126pt.
- [25 <./img/first-epoch.png>]
+ [26 <./img/first-epoch.png>]
 <./img/second-epoch.png, id=118, 176.91093pt x 140.77594pt>
 File: ./img/second-epoch.png Graphic file (type png)
 <use ./img/second-epoch.png>
@@ -826,29 +826,25 @@ File: ./img/third-epoch.png Graphic file (type png)
 <use ./img/third-epoch.png>
 Package pdftex.def Info: ./img/third-epoch.png  used on input line 153.
 (pdftex.def)             Requested size: 199.16626pt x 158.83754pt.
-) (pages/literature.tex [26 <./img/second-epoch.png> <./img/third-epoch.png>]
+) (pages/literature.tex [27 <./img/second-epoch.png> <./img/third-epoch.png>]) (pages/text-program.tex [28
 
-LaTeX Warning: Empty `thebibliography' environment on input line 6.
-
-) [27
-
-] (c:/projects\diplom\diplom.aux)
+] [29] [30] [31] [32]) [33] (c:/projects\diplom\diplom.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6456 strings out of 492895
- 86942 string characters out of 3133479
- 459963 words of memory out of 3000000
- 10163 multiletter control sequences out of 15000+200000
+ 6532 strings out of 492895
+ 87948 string characters out of 3133479
+ 623963 words of memory out of 3000000
+ 10236 multiletter control sequences out of 15000+200000
  25990 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,40p,1931b,1655s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,16n,40p,1931b,1661s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx3583.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on c:/projects\diplom\diplom.pdf (28 pages, 457127 bytes).
+Output written on c:/projects\diplom\diplom.pdf (33 pages, 484933 bytes).
 PDF statistics:
- 643 PDF objects out of 1000 (max. 8388607)
+ 669 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

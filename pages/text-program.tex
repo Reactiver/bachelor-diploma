@@ -1,0 +1,221 @@
+\newpage
+
+\addcontentsline{toc}{chapter}{Приложение} 
+
+\begin{lstlisting}
+import math
+import doctest
+import random
+import matplotlib.pyplot as plt
+import time
+import numpy as np
+
+def sigma(x):
+    return 1 / (1 + np.exp(-x))
+
+def sigma_prime(x):
+    return sigma(x) * (1 - sigma(x))
+
+def J_quadro(neuron, X, y):
+    return 0.5 * np.mean((neuron.vector_forward_pass(X) - y) ** 2)
+
+def J_quadro_derivative(y, y_hat):
+    return (y_hat - y) / len(y)
+
+def compute_gradient(neuron, X, y, J_prime=J_quadro_derivative):
+    # Compute activation vector
+
+    z = neuron.summatory_function(X)
+    y_hat = neuron.activation(z)
+
+    dy_dyhat = J_prime(y, y_hat)
+    dyhat_dz = neuron.activation_derivative(z)
+
+    dz_dw = X
+    grad = ((dy_dyhat * dyhat_dz).T).dot(dz_dw)
+    grad = grad.T
+    return grad
+
+class Network:
+
+    def __init__(self, sizes, output=True):
+        self.num_layers = len(sizes)
+        self.sizes = sizes
+        self.biases = [np.random.randn(y,1) for y in sizes[1:]]
+        self.weights = [np.random.randn(y, x) for x, y in zip(sizes[:-1], sizes[1:])]
+        self.output = output
+        
+    def feedforward(self, a):
+        for b, w in zip(self.biases, self.weights):
+            a = sigma(np.dot(w, a) + b)
+        return a
+    
+    def SGD(self, training_set, epochs, mini_batch_size, eta,
+            test_set=None):
+        
+        if test_set is not None: n_test = len(test_set)
+        n = len(training_set)
+        success_tests = 0
+
+        for j in range(epochs):
+            random.shuffle(training_set)
+            mini_batches = [
+                training_set[k:k+mini_batch_size]
+                for k in range(0, n, mini_batch_size)]
+
+            for mini_batch in mini_batches:
+                self.update_mini_batch(mini_batch, eta)
+
+            if test_set is not None and self.output:
+                success_tests = self.evaluate(test_set)
+                print("Percent of correct answers: ", int(success_tests /  n_test * 100),"%")
+
+        if test_set is not None:
+            return success_tests / n_test
+
+    def update_mini_batch(self, mini_batch, eta):
+        #Update biases and weights neural network, make one step of SGD with mini batch
+        
+        nabla_biases = [np.zeros(b.shape) for b in self.biases]
+        nabla_weigths = [np.zeros(w.shape) for w in self.weights]
+        for x, y in mini_batch:
+            delta_nabla_biases, delta_nabla_weigths = self.back_propogation(x, y)
+            nabla_biases = [nb+dnb for nb, dnb in zip(nabla_biases, delta_nabla_biases)]
+            nabla_weigths = [nw+dnw for nw, dnw in zip(nabla_weigths, delta_nabla_weigths)]
+            
+        epsilon = eta / len(mini_batch)
+        self.weights = [w - epsilon * nw for w, nw in zip(self.weights, nabla_weigths)]
+        self.biases  = [b - epsilon * nb for b, nb in zip(self.biases,  nabla_biases)]
+            
+    def back_propogation(self, x, y):
+        nabla_biases = [np.zeros(b.shape) for b in self.biases]
+        nabla_weigths = [np.zeros(w.shape) for w in self.weights]
+
+        activations = [x]
+        activation = x
+        zs = []
+        for b, w in zip(self.biases, self.weights):
+            # Compute activations
+            z = w.dot(activation) + b
+            zs.append(z)
+            activation = sigma(z)
+            activations.append(activation)
+            pass
+
+        # Back propogation
+        delta = (activations[-1]  - y) * activations[-1] * (1 - activations[-1]) 
+        nabla_biases[-1] = delta 
+        nabla_weigths[-1] =  delta.dot(activations[-2].T)
+
+        for l in range(2, self.num_layers):
+            delta = (self.weights[-l+1]).T.dot(delta) * activations[-l] * (1 - activations[-l]) # error on layer L-l
+            nabla_biases[-l] =  delta                                                           # derivative J by L-l layer
+            nabla_weigths[-l] =  delta.dot(activations[-l-1].T)
+        return nabla_biases, nabla_weigths
+    
+    def evaluate(self, test_set):
+        #Return number of tests with correct answers
+        test_results = [(np.argmax(self.feedforward(x)), y)
+                        for (x, y) in test_set]
+        return sum(int(x == y) for (x, y) in test_results)
+
+    def evolution_algorithm(self, network, neural_network_child):
+        input_count = 3
+        hidden_count = 7
+        output_count = 3
+
+        first = Network([input_count, hidden_count, output_count])
+        second = Network([input_count, hidden_count, output_count])
+        
+        a = self.weights[0]
+        b = self.weights[1]
+        c = network.weights[0]
+        d = network.weights[1]
+                
+        a = a.reshape(1, 21)
+        b = b.reshape(1, 21)
+        c = c.reshape(1, 21)
+        d = d.reshape(1, 21)
+        
+        first_arr = np.empty((0,1), int)
+        second_arr = np.empty((0,1), int)
+
+        for i in range(len(a)):
+            first_arr = np.append(first_arr, a[i])
+            second_arr = np.append(second_arr, c[i])
+        for i in range(len(b)):
+            first_arr = np.append(first_arr, b[i])
+            second_arr = np.append(second_arr, d[i])
+        
+        point = random.randint(0, len(first_arr))
+    
+        for i in range(point):
+            first_arr[i], second_arr[i] = second_arr[i], first_arr[i]
+            
+        a = first_arr[:a.shape[1]].reshape(7,3)
+        b = first_arr[b.shape[1]:].reshape(3,7)
+        c = second_arr[:c.shape[1]].reshape(7,3)
+        d = second_arr[d.shape[1]:].reshape(3,7)
+        
+        first.weights[0] = a
+        first.weights[1] = b
+        second.weights[0] = c
+        second.weights[1] = d
+        
+        first_result = first.SGD(training_set=train, epochs=1, mini_batch_size=5, eta=1, test_set=test)
+        second_result = second.SGD(training_set=train, epochs=1, mini_batch_size=5, eta=1, test_set=test)
+        
+        neural_network_child.append((first, first_result))
+        neural_network_child.append((second, second_result))
+
+data = np.loadtxt("data.csv", delimiter=",")
+
+means = data.mean(axis=0)
+means[-1] = 0 
+stds = data.std(axis=0)
+stds[-1] = 1
+data = (data - means) / stds
+
+np.random.seed(42)
+test_index = np.random.choice([True, False], len(data), replace=True, p=[0.25, 0.75])
+test = data[test_index]
+train = data[np.logical_not(test_index)]
+
+train = [(d[:3][:, np.newaxis], np.eye(3, 1, k=-int(d[-1]))) for d in train]
+test =  [(d[:3][:, np.newaxis], d[-1]) for d in test]
+
+input_count = 3
+hidden_count = 7
+output_count = 3
+SIZE = 10
+epoch = 1
+
+random.seed(1)
+np.random.seed(1)
+neural_network = [] #array of neural network
+for i in range(SIZE):
+    #create neural network, learn  and save results
+    network = Network([input_count, hidden_count, output_count])  
+    percent = network.SGD(training_set=train, epochs=1, mini_batch_size=5, eta=1, test_set=test)
+    
+    #add pair of neural network in array
+    neural_network.append((network, percent))
+
+# start evolution algorithm 
+for epoch in range(epoch):
+    print("\nEpoch ", epoch, )
+    
+    neural_network.sort(key=lambda x: x[1])     # sorting by number of correct answers
+    neural_network = neural_network[5:]         # pick top 5
+    neural_network_child = []                   # array of childrens
+    indexes = np.random.randint(0, 5, 10)       # array of random indexes
+    np.random.shuffle(indexes)
+    
+    #pick top 2 neural network
+    neural_network[indexes[4]][0].evolution_algorithm(neural_network[indexes[3]][0], neural_network_child)
+    
+    for x in range(4):
+        neural_network[indexes[x]][0].evolution_algorithm(neural_network[indexes[x + 5]][0], neural_network_child)
+
+    neural_network = neural_network_child
+\end{lstlisting}

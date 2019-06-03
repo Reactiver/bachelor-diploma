@@ -267,6 +267,8 @@ INPUT .\img\third-epoch.png
 INPUT .\img\third-epoch.png
 INPUT pages\literature.tex
 INPUT pages\literature.tex
+INPUT pages\text-program.tex
+INPUT pages\text-program.tex
 INPUT c:\projects\diplom\diplom.aux
 INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0600.pk
 INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0600.pk
