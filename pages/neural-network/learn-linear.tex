@@ -1,5 +1,5 @@
 \subsection{Обучение линейного нейрона}
-Чтобы обучать нейрон надо знать градиент целевой функции($\nabla J$). В данном разделе будет выведена формула для $\nabla J$. Значение целевой переменной будет находиться по формуле $\hat{y}^{(i)} = w^T x^{(i)}$. Где $x^{(i)}$ - \textit{i}-ый пример из множества обучающей выборки.
+\indent \indent Чтобы обучать нейрон, надо знать градиент целевой функции($\nabla J$). В данном разделе будет выведена формула для $\nabla J$. Значение целевой переменной будет находиться по формуле $\hat{y}^{(i)} = w^T x^{(i)}$. Где $x^{(i)}$ - \textit{i}-ый пример из множества обучающей выборки.
 
 $$  \frac{\partial J}{\partial w_j} = 
 \frac{\partial 
@@ -9,7 +9,7 @@ $$  \frac{\partial J}{\partial w_j} =
   \Big)}
 {\partial w_j} = 
 \sum_{i=1}^{n} \frac{\partial \Big( \mathlarger{ \frac{1}{2} (\hat{y}^{(i)} - y^{(i)})^2} \Big)}
-{\partial w_j}
+{\partial w_j} .
 $$
 
 Выполним следующий шаг:
@@ -18,7 +18,7 @@ $$
 \sum_{i=1}^{n} \frac{\partial \Big( \mathlarger{ \frac{1}{2} (\hat{y}^{(i)} - y^{(i)})^2} \Big)}
 {\partial w_j} = 
 \sum_{i=1}^{n} \frac{\partial \Big( \mathlarger{ \frac{1}{2} (\hat{y}^{(i)} - y^{(i)})^2} \Big)}
-{\partial \hat{y}^{(i)}} \cdot \frac{\partial \hat{y}^{(i)}}{\partial w_j}
+{\partial \hat{y}^{(i)}} \cdot \frac{\partial \hat{y}^{(i)}}{\partial w_j} .
 \eqno(4)
 $$
 
@@ -27,7 +27,7 @@ $$
 $$\frac{\partial \Big( \mathlarger{ \frac{1}{2} (\hat{y}^{(i)} - y^{(i)})^2} \Big)}
 {\partial \hat{y}^{(i)}} = 
 \frac{1}{2} \cdot 2 \cdot (\hat{y}^{(i)} - y^{(i)})^2 = 
-\hat{y}^{(i)} - y^{(i)}
+\hat{y}^{(i)} - y^{(i)} .
 \eqno(5)
 $$
 
@@ -35,14 +35,14 @@ $$
 
 $$ \frac{\partial \hat{y}^{(i)}}{\partial w_j} =
 \frac{\partial (w_1 x_1^{(i)} + w_2 x_2^{(i)} + \ldots + w_j x_j^{(i)} + \ldots + w_m x_m^{(i)} )}{\partial w_j} =
-\frac{\partial w_j x_j^{(i)}}{ w_j } = x_j^{(i)}
+\frac{\partial w_j x_j^{(i)}}{ w_j } = x_j^{(i)} .
 \eqno(6)
 $$
 
 Объединяем результаты (5) и (6) и получаем:
 
 $$ \frac{\partial J}{\partial w_j} = 
-\sum_{i=1}^{n} (\hat{y}^{(i)} -y^{(i)}) \cdot x_j^{(i)}
+\sum_{i=1}^{n} (\hat{y}^{(i)} -y^{(i)}) \cdot x_j^{(i)}.
 \eqno(7)
 $$
 
@@ -62,4 +62,4 @@ $$
 \end{displaymath}
 
 Суммарная ошибка вычисляется по формуле (2). Средняя ошибка имеет следующий вид:
-$$ J = \frac{1}{2n} \mathlarger{ \sum_{i=1}^{n} (\hat{y}^{(i)} - y^{(i)}})^2 \eqno(9)$$ \\
+$$ J = \frac{1}{2n} \mathlarger{ \sum_{i=1}^{n} (\hat{y}^{(i)} - y^{(i)}})^2 . \eqno(9)$$ \\
