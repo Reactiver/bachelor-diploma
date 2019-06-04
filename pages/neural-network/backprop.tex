@@ -60,10 +60,7 @@ $$
 
 Тогда частняа производная целевой функции по весу $\frac{\partial J}{\partial W_{jk}^l}$ будет равна $a_k^{l-1} \cdot \delta_j^l$, а по смещению: $\frac{\partial J}{\partial w_{jk}^l} = \delta_j^l$.
 
-\subsubsection{Четыре кита backpropogation}
-
 Все нужные формулы получены. Теперь можно выделить 4 основных, которые будут участвовать в алгоритме обратного распространения ошибки:
-
 \begin{enumerate}
   \item[1)] $\delta_L = \nabla_{a} J \odot \sigma'(z^L)$
   \item[2)] $\delta^l = ((W^{l+1})^T \cdot \delta^{l+1}) \odot \sigma '(z^l)$
