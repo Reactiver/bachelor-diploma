@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  4 JUN 2019 23:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  6 JUN 2019 23:53
 entering extended mode
 **c:/projects/diplom/diplom.tex
 (c:/projects/diplom/diplom.tex
@@ -581,12 +581,7 @@ Overfull \hbox (4.78714pt too wide) in paragraph at lines 16--1
 []\T2A/cmr/bx/n/14.4 Алгоритм об-рат-но-го рас-про-стра-не-ния ошиб-ки (Back propagation)
  []
 
-[7]
-Overfull \hbox (47.83173pt too wide) in paragraph at lines 9--10
-\T2A/cmr/m/n/14.4 Хопфил-дом в 1982 го-ду. Се-ти Хопфил-да слу-жат в ка-че-стве адресно-ориентированных
- []
-
-) (pages/neural-network/learning-algs.tex
+[7]) (pages/neural-network/learning-algs.tex
 Overfull \hbox (3.90048pt too wide) in paragraph at lines 13--1
 []\T2A/cmr/bx/n/14.4 Свјрточные ней-рон-ные се-ти (convolutional neural networks, CNN)
  []
@@ -721,22 +716,22 @@ Overfull \hbox (3.86783pt too wide) in paragraph at lines 15--17
 [27
 
 ] [28] [29] [30]
-<./img/first-epoch.png, id=123, 174.6525pt x 142.28156pt>
-File: ./img/first-epoch.png Graphic file (type png)
-<use ./img/first-epoch.png>
-Package pdftex.def Info: ./img/first-epoch.png  used on input line 136.
-(pdftex.def)             Requested size: 193.47578pt x 157.6261pt.
-<./img/second-epoch.png, id=124, 176.91093pt x 140.77594pt>
-File: ./img/second-epoch.png Graphic file (type png)
-<use ./img/second-epoch.png>
-Package pdftex.def Info: ./img/second-epoch.png  used on input line 145.
-(pdftex.def)             Requested size: 193.47578pt x 153.96039pt.
-<./img/third-epoch.png, id=125, 178.41656pt x 142.28156pt>
-File: ./img/third-epoch.png Graphic file (type png)
-<use ./img/third-epoch.png>
-Package pdftex.def Info: ./img/third-epoch.png  used on input line 154.
-(pdftex.def)             Requested size: 193.47578pt x 154.2979pt.
- [31 <./img/first-epoch.png> <./img/second-epoch.png>]) (pages/conclusion.tex [32 <./img/third-epoch.png>]) (pages/literature.tex [33
+<./img/0.png, id=123, 183.68625pt x 146.79843pt>
+File: ./img/0.png Graphic file (type png)
+<use ./img/0.png>
+Package pdftex.def Info: ./img/0.png  used on input line 137.
+(pdftex.def)             Requested size: 193.47578pt x 154.63344pt.
+<./img/51.png, id=124, 182.93344pt x 153.57375pt>
+File: ./img/51.png Graphic file (type png)
+<use ./img/51.png>
+Package pdftex.def Info: ./img/51.png  used on input line 146.
+(pdftex.def)             Requested size: 193.47578pt x 162.43353pt.
+<./img/99.png, id=125, 182.18062pt x 152.82094pt>
+File: ./img/99.png Graphic file (type png)
+<use ./img/99.png>
+Package pdftex.def Info: ./img/99.png  used on input line 155.
+(pdftex.def)             Requested size: 193.47578pt x 162.30186pt.
+ [31 <./img/0.png> <./img/51.png>]) (pages/conclusion.tex [32 <./img/99.png>]) (pages/literature.tex [33
 
 ] [34
 
@@ -762,17 +757,17 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 14 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6544 strings out of 492895
- 88095 string characters out of 3133479
+ 6546 strings out of 492895
+ 87984 string characters out of 3133479
  638963 words of memory out of 3000000
- 10245 multiletter control sequences out of 15000+200000
+ 10247 multiletter control sequences out of 15000+200000
  25990 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,16n,40p,1410b,1789s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx3583.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on c:/projects\diplom\diplom.pdf (40 pages, 478173 bytes).
+Output written on c:/projects\diplom\diplom.pdf (40 pages, 453296 bytes).
 PDF statistics:
- 658 PDF objects out of 1000 (max. 8388607)
+ 659 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

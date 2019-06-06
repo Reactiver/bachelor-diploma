@@ -164,6 +164,14 @@ class Network:
         second.weights[0] = c
         second.weights[1] = d
         
+        random_point = random.randint(0, 1)
+        random_child = random.randint(0, 1)
+        
+        if random_child == 0:
+            first.weights[random_point] = -first.weights[random_point]
+        else:
+            second.weights[random_point] = -second.weights[random_point]
+        
         first_result = first.SGD(training_set=train, epochs=1, mini_batch_size=5, eta=1, test_set=test)
         second_result = second.SGD(training_set=train, epochs=1, mini_batch_size=5, eta=1, test_set=test)
         
