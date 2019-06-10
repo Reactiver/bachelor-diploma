@@ -114,10 +114,8 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
-INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm3583.tfm
-INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\labx3583.tfm
-INPUT c:\projects\diplom\diplom.toc
-INPUT c:\projects\diplom\diplom.toc
+INPUT pages\title.tex
+INPUT pages\title.tex
 INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\labx1440.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
@@ -135,6 +133,10 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 OUTPUT c:\projects\diplom\diplom.pdf
 INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm3583.tfm
+INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\labx3583.tfm
+INPUT c:\projects\diplom\diplom.toc
+INPUT c:\projects\diplom\diplom.toc
 OUTPUT c:\projects\diplom\diplom.toc
 INPUT pages\introduce.tex
 INPUT pages\introduce.tex
@@ -279,12 +281,12 @@ INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\l
 INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk
 INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk
 INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk
-INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk
-INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk
-INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk
-INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk
 INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx3583.pk
 INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx3583.pk
+INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk
+INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk
+INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk
+INPUT C:\Users\79157\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
